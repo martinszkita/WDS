@@ -14,4 +14,9 @@ public:
     Szeregowanie(){};
     void Szeregowanie_r();
     void Szeregowanie_q();
+    void UtworzInstancjeTestowa(int n);
+    void PrzegladZupelny();
+    unsigned int CzasJednejPermutacji();
 };
+
+ostream &operator<<(ostream &str, Szeregowanie &szer);
